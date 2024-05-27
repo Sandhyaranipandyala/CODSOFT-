@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            body{
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(8, 51, 2);
+            }
+            .calculator{
+                border: 5px solid black;
+                padding: 20px;
+                border-radius: 15px;
+                background: transparent;
+                box-shadow: 15px whitesmoke;
+            }
+            input{
+                padding: 25px;
+                border: 4px solid black;
+                margin: 10px;
+                width: 100%;
+                font-size: 30px;
+                text-align: right;
+                cursor: pointer;
+        
+            }
+            button{
+                width: 50px;
+                height: 50px;
+                margin: 10px;
+                border-radius: 50%;
+                cursor: pointer;
+                font-size: 20px;
+                border: 3px solid black;
+            }
+            .multiplication{
+                background-color: orangered;
+            }
+            .minus{
+                background-color: orangered;
+            }
+            .plus{
+                background-color: orangered;
+            }
+            .equal{
+                background-color: orangered;
+            }
+            .divison{
+                background-color: orangered;
+            }
+        </style>
+
+    </head>
+    <body>
+        <div class="calculator">
+            <input type="text" placeholder="0">
+            <div>
+                <button>AC</button>
+                <button>DEL</button>
+                <button>%</button>
+                <button class="divison">/</button>
+            </div>
+            <div>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="multiplication">*</button>
+            </div>
+            <div>
+                 <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="minus">-</button>
+            </div>
+            <div>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="plus">+</button>
+            </div>
+            <div>
+                <button>0</button>
+                <button>00</button>
+                <button>.</button>
+                <button class="equal">=</button>
+            </div>
+        </div>
+    </body>
+</html>
